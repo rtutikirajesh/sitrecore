@@ -59,9 +59,9 @@
     "authCertificatePassword": {
       "value": "Rajesh@1234"
     },
-    "templateLinkBase": {
-      "value": "https://github.com/rtutikirajesh/sitrecore/blob/main/XP/"
-    },
+    // "templateLinkBase": {
+    //   "value": "https://github.com/rtutikirajesh/sitrecore/blob/main/XP/"
+    // },
     "solrConnectionString": {
       "value": "http://localhost:8983/solr/#/"
     }
