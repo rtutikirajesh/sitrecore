@@ -1,0 +1,65 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "deploymentId": {
+      "value": "sitecore-xp-scaled"
+    },
+    "location": {
+      "value": "East US"
+    },
+    "sitecoreAdminPassword": {
+      "value": "a"
+    },
+    "licenseXml": {
+      "value": "https://license12345.blob.core.windows.net/license?sp=r&st=2024-03-05T05:22:54Z&se=2024-03-05T13:22:54Z&spr=https&sv=2022-11-02&sr=c&sig=ePK13e0gWzNJ9b8B3ZseZkxHAl1JM%2Bspa4Nbwg20kBw%3D"
+    },
+    "repAuthenticationApiKey": {
+      "value": "s3cUr3@uTH1k3yF0R#S1t3c0r3"
+    },
+    "sqlServerLogin": {
+      "value": "sa"
+    },
+    "sqlServerPassword": {
+      "value": "admin@12345"
+    },
+    "cmMsDeployPackageUrl": {
+      "value": "https://cmmsdeploypackageurl.blob.core.windows.net/cmmsdeploypackage?sp=r&st=2024-03-05T05:22:13Z&se=2024-03-05T13:22:13Z&spr=https&sv=2022-11-02&sr=c&sig=SpA3%2FoTkgVntDSeMytacyzO20cknXdNnESi7RWMaMG4%3D"
+    },
+    "cdMsDeployPackageUrl": {
+      "value": "https://cdmsdeploypackageurl.blob.core.windows.net/cdmsdeploypackageurl?sp=r&st=2024-03-05T05:21:53Z&se=2024-03-05T13:21:53Z&spr=https&sv=2022-11-02&sr=c&sig=6VIhuxuL6hg4CJG0UikjOS2Y1nTSpcrqSJUAONpJBiI%3D"
+    },
+    "prcMsDeployPackageUrl": {
+      "value": "https://prcmsdeploypackageurl.blob.core.windows.net/prcmsdeploy?sp=r&st=2024-03-05T05:21:31Z&se=2024-03-05T13:21:31Z&spr=https&sv=2022-11-02&sr=c&sig=yPfqglTr1cM%2FtpXHDJY3sCgdLF8Oa5qWC29k2%2BQHqQo%3D"
+    },
+    "xcRefDataMsDeployPackageUrl": {
+      "value": "https://xcrefdatamsdeployurl.blob.core.windows.net/xcrefdatamsdeploy?sp=r&st=2024-03-05T05:21:05Z&se=2024-03-05T13:21:05Z&spr=https&sv=2022-11-02&sr=c&sig=A4UIxYKCAKXF9Z14XVbVUFqBPmRnn%2FaplQdsFA4HHoA%3D"
+    },
+    "xcCollectMsDeployPackageUrl": {
+      "value": "https://xccollectmsdeploypackage.blob.core.windows.net/xccollectmsdeploypackage?sp=r&st=2024-03-05T05:20:41Z&se=2024-03-05T13:20:41Z&spr=https&sv=2022-11-02&sr=c&sig=bi%2FDnKl0o%2BqXwHbG5%2B12zhDyKBpKFgbjqbKuBQJs8ys%3D"
+    },
+    "xcSearchMsDeployPackageUrl": {
+      "value": "https://xcsearchmsdeploypackage.blob.core.windows.net/xcsearchmsdeploy?sp=r&st=2024-03-05T05:20:14Z&se=2024-03-05T13:20:14Z&spr=https&sv=2022-11-02&sr=c&sig=p%2B%2BDNck6ply1oFF0VAS8llyqN3r%2FqLsCp1fktJrYkVI%3D"
+    },
+    "cortexProcessingMsDeployPackageUrl": {
+      "value": "https://cortexprocessingmsdeploy.blob.core.windows.net/cortexprocessingmsdeploy?sp=r&st=2024-03-05T05:19:32Z&se=2024-03-05T13:19:32Z&spr=https&sv=2022-11-02&sr=c&sig=jVnrU2kqMkSHFH2%2FVabsxTskGQpG7gSbDwqeNdba7m4%3D"
+    },
+    "cortexReportingMsDeployPackageUrl": {
+      "value": "https://cortexreportingmsdeploy.blob.core.windows.net/cortexreportingmsdeploy?sp=r&st=2024-03-05T05:18:31Z&se=2024-03-05T13:18:31Z&spr=https&sv=2022-11-02&sr=c&sig=3baUigYPXwwXrI9Tkxd2YJTuIEEi%2BywBH0nmiR2Rrjc%3D"
+    },
+    "maOpsMsDeployPackageUrl": {
+      "value": "https://maopsmsdeploypackage.blob.core.windows.net/maopsmsdeploypackage?sp=r&st=2024-03-05T05:13:44Z&se=2024-03-05T13:13:44Z&spr=https&sv=2022-11-02&sr=c&sig=2s1H5vV0p%2BbZX1tOpJYIlU1pm5m9QBrb0%2B3ESLp2QY4%3D"
+    },
+    "maRepMsDeployPackageUrl": {
+      "value": "https://marepmsdeploypackage.blob.core.windows.net/marepmsdeploypackage?sp=r&st=2024-03-05T05:13:21Z&se=2024-03-05T13:13:21Z&spr=https&sv=2022-11-02&sr=c&sig=wTLa2fbzqAmbEwfdriTlKvMS1m0a6EOAiTyZk0st9go%3D"
+    },
+    "authCertificateBlob": {
+      "value": "https://authcertificate.blob.core.windows.net/authcertificate?sp=r&st=2024-03-05T05:12:47Z&se=2024-03-05T13:12:47Z&spr=https&sv=2022-11-02&sr=c&sig=lFP3EmvUbXyjsNRXMiFPsTEXr6SVTQd2iy9LrCVJC00%3D"
+    },
+    "authCertificatePassword": {
+      "value": "Rajesh@1234"
+    },
+    "templateLinkBase": {
+      "value": ""
+  }
+}
