@@ -1187,6 +1187,9 @@
           "cortexReportingWebAppName": {
             "value": "[parameters('cortexReportingWebAppName')]"
           },
+          "siMsDeployPackageUrl": {
+            "value": "[parameters('siMsDeployPackageUrl')]"
+          },
           "cmMsDeployPackageUrl": {
             "value": "[parameters('cmMsDeployPackageUrl')]"
           },
@@ -1327,6 +1330,9 @@
           },
           "xcSearchIndexName": {
             "value": "[parameters('xcSearchIndexName')]"
+          },
+          "xcSolrConnectionString": {
+            "value": "[parameters('xcSolrConnectionString')]"
           },
           "useApplicationInsights": {
             "value": "[parameters('useApplicationInsights')]"
