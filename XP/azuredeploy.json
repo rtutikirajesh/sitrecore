@@ -480,14 +480,6 @@
     "cortexReportingMsDeployPackageUrl": {
       "type": "securestring"
     },
-    // "singleMsDeployPackageUrl": {
-    //   "type": "securestring",
-    //   "minLength": 1
-    // },
-    // "xcSingleMsDeployPackageUrl": {
-    //   "type": "securestring",
-    //   "minLength": 1
-    // },
     "exmDdsMsDeployPackageUrl": {
       "type": "securestring",
       "defaultValue": ""
@@ -1198,12 +1190,6 @@
           "cmMsDeployPackageUrl": {
             "value": "[parameters('cmMsDeployPackageUrl')]"
           },
-          // "singleMsDeployPackageUrl": {
-          //   "value": "[parameters('singleMsDeployPackageUrl')]"
-          // },
-          // "xcSingleMsDeployPackageUrl": {
-          //   "value": "[parameters('xcSingleMsDeployPackageUrl')]"
-          // },
           "cdMsDeployPackageUrl": {
             "value": "[parameters('cdMsDeployPackageUrl')]"
           },

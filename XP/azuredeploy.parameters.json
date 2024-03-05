@@ -62,12 +62,6 @@
     "templateLinkBase": {
       "value": "https://github.com/rtutikirajesh/sitrecore/blob/main/XP/azuredeploy.json"
     },
-    // "singleMsDeployPackageUrl": {
-    //   "value": ""
-    // },
-    // "xcSingleMsDeployPackageUrl": {
-    //   "value": ""
-    // },
     "solrConnectionString": {
       "value": "http://localhost:8983/solr/#/"
     }
