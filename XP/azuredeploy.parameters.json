@@ -21,7 +21,7 @@
       "value": "sa"
     },
     "sqlServerPassword": {
-      "value": "admin@12345"
+      "value": "Admin@2024"
     },
     "cmMsDeployPackageUrl": {
       "value": "https://cmmsdeploypackageurl.blob.core.windows.net/cmmsdeploypackage?sp=r&st=2024-03-05T05:22:13Z&se=2024-03-05T13:22:13Z&spr=https&sv=2022-11-02&sr=c&sig=SpA3%2FoTkgVntDSeMytacyzO20cknXdNnESi7RWMaMG4%3D"
@@ -61,6 +61,15 @@
     },
     "templateLinkBase": {
       "value": "https://github.com/rtutikirajesh/sitrecore/blob/main/XP/azuredeploy.json"
+    },
+    // "singleMsDeployPackageUrl": {
+    //   "value": ""
+    // },
+    // "xcSingleMsDeployPackageUrl": {
+    //   "value": ""
+    // },
+    "solrConnectionString": {
+      "value": "http://localhost:8983/solr/#/"
     }
   }
 }
