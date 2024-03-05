@@ -1191,9 +1191,6 @@
           "cortexReportingWebAppName": {
             "value": "[parameters('cortexReportingWebAppName')]"
           },
-          "siMsDeployPackageUrl": {
-            "value": "[parameters('siMsDeployPackageUrl')]"
-          },
           "cmMsDeployPackageUrl": {
             "value": "[parameters('cmMsDeployPackageUrl')]"
           },
