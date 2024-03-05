@@ -328,10 +328,6 @@
       "type": "securestring",
       "defaultValue": ""
     },
-    "xcSolrConnectionString": {
-      "type": "securestring",
-      "defaultValue": "[parameters('solrConnectionString')]"
-    },
     "useApplicationInsights": {
       "type": "bool",
       "defaultValue": true
